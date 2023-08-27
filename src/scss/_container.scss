@@ -1,0 +1,25 @@
+.output-container {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #fff;
+}
+.input,
+.output {
+  height: 2.5rem;
+  text-align: end;
+  resize: none;
+  border: none;
+  padding: 0 1rem 0 0;
+  font-size: large;
+  font-weight: bold;
+  background-color: #fff;
+}
+.input:focus,
+.output:focus {
+  outline: none;
+}
+.input,
+.output:disabled {
+  background-color: #fff;
+}
